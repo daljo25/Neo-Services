@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e3f2fd;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+.mdi-set.mdi-bigicon,
+.mdi.mdi-bigicon:before {
+  font-size: 98px;
+}
+
+#map_container{
+  position: relative;
+}
+#mapa{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.parallax-container {
+	height: 250px;
+}
+.separador {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.login {
+	padding-top: 10px;
+	padding-bottom: 100px;
+	max-width: 500px;
+}
+nav .brand-logo {
+    padding-left: 20px;
+}
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+}
